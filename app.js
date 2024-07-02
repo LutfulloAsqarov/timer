@@ -16,7 +16,7 @@ form.addEventListener("submit", (e) => {
 });
 
 function startTimer(lessonValue, restValue, countValue) {
-    let seconds = 3;
+    let seconds = 60;
     let lessonMinutes = lessonValue;
     let restMinutes = restValue;
     const countdown = setInterval(() => {
